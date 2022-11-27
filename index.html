@@ -15,27 +15,93 @@
   </head>
   <body class="font-sans bg-veryLightBlue">
     <!-- Global container -->
-    <div class="container mx-auto h-full w-full max-w-[315px] md:max-w-[1110px]">
+    <div class="container mx-auto h-full w-full max-w-[315px] py-20 md:max-w-[1110px]">
       <!-- Heading Container -->
-      <div class="heading w-full">
-        <h1>Reliable, efficient delivery</h1>
-        <span>Powered by Technology</span>
-        <p>
+      <div class="heading w-full mb-10 space-y-6">
+        <h1 class="text-[24px] font-extralight tracking-wide text-veryDarkBlue">
+          Reliable, efficient delivery
+        </h1>
+        <span class="text-[24px] font-semibold tracking-wide text-veryDarkBlue"
+          >Powered by Technology</span
+        >
+        <p class="text-[15px] text-grayishBlue tracking-wide leading-6 text-center">
           Our Artificial Intelligence powered tools use millions of project data points to ensure
           that your project is successful
         </p>
       </div>
       <!-- Grid Container -->
-      <div class="grid grid-cols-1">
+      <div class="grid grid-cols-1 gap-5">
         <!-- Grid Item / Card-->
-        <div class="card flex flex-col items-center bg-white shadow-xl rounded-xl">
+        <div class="card bg-white shadow-xl rounded-xl max-h-[225px] relative overflow-hidden">
           <!-- Color Bar -->
-          <span></span>
-          <!-- Content -->
-          <div>
-            <h2>Supervisor</h2>
-            <p>Monitor activity to identify project roadblocks</p>
-            <img src="images/icon-supervisor.svg" alt="" />
+          <span class="w-full h-[5px] bg-cyan absolute"></span>
+          <div class="flex flex-col items-center p-8">
+            <!-- Content -->
+            <div class="space-y-4">
+              <h2 class="font-semibold text-[20px] text-veryDarkBlue tracking-wider">Supervisor</h2>
+              <p class="text-[13px] text-grayishBlue tracking-wide font-light">
+                Monitor activity to identify project roadblocks
+              </p>
+              <div class="w-full flex items-center justify-end">
+                <img src="images/icon-supervisor.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Grid Item / Card-->
+        <div class="card bg-white shadow-xl rounded-xl max-h-[225px] relative overflow-hidden">
+          <!-- Color Bar -->
+          <span class="w-full h-[5px] bg-red absolute"></span>
+          <div class="flex flex-col items-center p-8">
+            <!-- Content -->
+            <div class="space-y-4">
+              <h2 class="font-semibold text-[20px] text-veryDarkBlue tracking-wider">
+                Team Builder
+              </h2>
+              <p class="text-[13px] text-grayishBlue tracking-wide font-light">
+                Scans our talent network to create the optimal team for your project
+              </p>
+              <div class="w-full flex items-center justify-end">
+                <img src="images/icon-team-builder.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Grid Item / Card-->
+        <div class="card bg-white shadow-xl rounded-xl max-h-[225px] relative overflow-hidden">
+          <!-- Color Bar -->
+          <span class="w-full h-[5px] bg-orange absolute"></span>
+          <div class="flex flex-col items-center p-8">
+            <!-- Content -->
+            <div class="space-y-4">
+              <h2 class="font-semibold text-[20px] text-veryDarkBlue tracking-wider">Karma</h2>
+              <p class="text-[13px] text-grayishBlue tracking-wide font-light">
+                Regularly evaluates our talent to ensure quality
+              </p>
+              <div class="w-full flex items-center justify-end">
+                <img src="images/icon-karma.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Grid Item / Card-->
+        <div class="card bg-white shadow-xl rounded-xl max-h-[225px] relative overflow-hidden">
+          <!-- Color Bar -->
+          <span class="w-full h-[5px] bg-blue absolute"></span>
+          <div class="flex flex-col items-center p-8">
+            <!-- Content -->
+            <div class="space-y-4">
+              <h2 class="font-semibold text-[20px] text-veryDarkBlue tracking-wider">Calculator</h2>
+              <p class="text-[13px] text-grayishBlue tracking-wide font-light">
+                Uses data from past projects to provide better delivery estimates
+              </p>
+              <div class="w-full flex items-center justify-end">
+                <img src="images/icon-calculator.svg" alt="" />
+              </div>
+            </div>
           </div>
         </div>
       </div>
